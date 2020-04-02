@@ -7,6 +7,10 @@ Step-2:- how many user you want to connect with server, run UserLogIn.java file 
 
 step-3:- Now user are ready to talk with each other.
 
+Very Imp: if you are running on ubuntu (or a plateform where you can not put all java file in same package), then you will have to run 
+          MyServer.java then loninMyClient.java only 
+          because --> loginMyClient = UserLogIn.java + MyClient.java 
+
 
 
 NOTE : if your code is showing any error message about port number or connection reset then you will have to chane your port number and this port number can be between 2000 to 9999
